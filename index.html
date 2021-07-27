@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.9">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section class="upperbody">
+    <div class="nav-grid">
+      <div class="nav-grid-item logoimg"><a href="#"><img src="includes/logo.png" alt=""></a></div>
+      <div class="nav-grid-item">
+        <nav class="list1">
+          <ul>
+            <li class="logotext"><a href="#">TaskDo</a></li>
+            <li class="nav-item"><a href="#">About</a></li>
+            <li class="nav-item"><a href="#">Products</a></li>
+            <li class="nav-item"><a href="#">Pricing</a></li>
+            <li class="nav-item"><a href="#">Blog</a></li>
+            <li class="nav-item"><a href="#">Jobs</a></li>
+            <div class="dropdown">
+              <button class="dropbtn nav-item" onclick="myFunction()">More
+                <img src="includes/Vector.svg">
+              </button>
+              <div class="dropdown-content" id="myDropdown">
+                <a href="#" class="nav-item">Link 1</a>
+                <a href="#" class="nav-item">Link 2</a>
+                <a href="#" class="nav-item">Link 3</a>
+              </div>
+            </div>
+          </ul>
+        </nav>
+      </div>
+      <div class="nav-grid-item2">
+        <ul>
+          <li class="nav-item-img"><a href="#" data-image-width="135" data-image-height="40">
+              <img src="includes/gplay.png" data-image-width="138.9707">
+            </a></li>
+          <li class="nav-item-img"><a href="#" data-image-width="135" data-image-height="40">
+              <img src="includes/appstore.png" data-image-width="138.9707">
+            </a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="body-grid">
+      <div>
+        <pre class="bodyhead">
+Oraganize projects.
+Get more done.</pre>
+        <button class="button-purple">Get Started</button>
+      </div>
+      <div>
+        <img src="includes/iphone.png" class="screen">
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="mid-body">
+
+    <!-- Caraousel -->
+    <div class="Caraousel">
+      <hr>
+      <div class="crousle">
+        <button onclick="posts(-1)"> <img src="includes/left.svg" alt="Left"> </button>
+        <div class="posts">
+          <div class="post" id="1">
+            <div class="logos">
+              <img src="includes/airbnb.svg">
+            </div>
+          </div>
+
+
+          <div class="post" id="2">
+            <div class="logos">
+              <img src="includes/hubspot_logo.svg">
+            </div>
+          </div>
+
+          <div class="post" id="3">
+            <div class="logos">
+              <img src="includes/Google.svg">
+            </div>
+          </div>
+          <div class="post" id="4">
+            <div class="logos">
+              <img src="includes/Microsoft.svg">
+            </div>
+          </div>
+          <div class="post" id="5">
+            <div class="logos">
+              <img src="includes/Walmart.svg">
+            </div>
+          </div>
+          <div class="post" id="6">
+
+            <div class="logos">
+              <img src="includes/FedEx.svg">
+            </div>
+          </div>
+          <div class="post" id="7">
+            <div class="logos">
+              <img src="includes/airbnb.svg">
+            </div>
+          </div>
+
+
+          <div class="post" id="8">
+            <div class="logos">
+              <img src="includes/hubspot_logo.svg">
+            </div>
+          </div>
+
+          <div class="post" id="9">
+            <div class="logos">
+              <img src="includes/Google.svg">
+            </div>
+          </div>
+          <div class="post" id="10">
+            <div class="logos">
+              <img src="includes/Microsoft.svg">
+            </div>
+          </div>
+          <div class="post" id="11">
+            <div class="logos">
+              <img src="includes/Walmart.svg">
+            </div>
+          </div>
+          <div class="post" id="12">
+
+            <div class="logos">
+              <img src="includes/FedEx.svg">
+            </div>
+          </div>
+        </div>
+        <div class="crousle">
+          <button onclick="posts(1)"> <img src="includes/right.svg" alt="Right"> </button>
+        </div>
+      </div>
+      <hr>
+    </div>
+
+
+    <!-- Tailor-made Features -->
+
+    <div class="gridContainer">
+      <div class="itemhead">
+        <h2 class="grid-head">Tailor-made features</h2>
+        <pre class="placeholder">
+Loren ipsum is common placeholder text used to demonstrate
+the graphic elements of a document or visual presentation.
+</pre>
+      </div>
+      <div class="item1">
+        <div class="gridContainer-nested">
+          <div class="grid-item"><img src="includes/01.svg"></div>
+          <div class="grid-item">
+            <h4 class="grid-text">Robust workflow</h4>
+          </div>
+          <div class="grid-item">
+            <pre class="grid-subtext">
+Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Sed erat nibh tristique ipsum.
+        </pre>
+          </div>
+        </div>
+      </div>
+      <div class="item2">
+        <div class="gridContainer-nested">
+          <div class="grid-item"><img src="includes/02.svg"></div>
+          <div class="grid-item">
+            <h4 class="grid-text">Flexibility</h4>
+          </div>
+          <div class="grid-item">
+            <pre class="grid-subtext">
+Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Sed erat nibh tristique ipsum.
+        </pre>
+          </div>
+        </div>
+      </div>
+      <div class="item3">
+        <div class="gridContainer-nested">
+          <div class="grid-item"><img src="includes/03.svg"></div>
+          <div class="grid-item">
+            <h4 class="grid-text">User Friendly</h4>
+          </div>
+          <div class="grid-item">
+            <pre class="grid-subtext">
+Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Sed erat nibh tristique ipsum.
+        </pre>
+          </div>
+        </div>
+      </div>
+      <div class="item4">
+        <div class="gridContainer-nested">
+          <div class="grid-item"><img src="includes/04.svg"></div>
+          <div class="grid-item">
+            <h4 class="grid-text">Multiple layouts</h4>
+          </div>
+          <div class="grid-item">
+            <pre class="grid-subtext">
+Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Sed erat nibh tristique ipsum.
+        </pre>
+          </div>
+        </div>
+      </div>
+      <div class="item5">
+        <div class="gridContainer-nested">
+          <div class="grid-item"><img src="includes/05.svg"></div>
+          <div class="grid-item">
+            <h4 class="grid-text">Better components</h4>
+          </div>
+          <div class="grid-item">
+            <pre class="grid-subtext">
+Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Sed erat nibh tristique ipsum.
+        </pre>
+          </div>
+        </div>
+      </div>
+      <div class="item6">
+        <div class="gridContainer-nested">
+          <div class="grid-item"><img src="includes/06.svg"></div>
+          <div class="grid-item">
+            <h4 class="grid-text">Well organised</h4>
+          </div>
+          <div class="grid-item">
+            <pre class="grid-subtext">
+Lorem ipsum dolor sit amet, consectetur
+adipiscing elit. Sed erat nibh tristique ipsum.
+        </pre>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="quote-box">
+    <div class="test-grid">
+      <div class="test-grid-item1">
+        <div class="test-head-grid">
+        <div>
+          <pre class="test-head"><img src="includes/doublequote.svg" class="doublequote">
+         Real Stories from
+         Real Customers</pre>
+          <p class="test-text">Get inspired by these stories.</p>
+        </div>
+      </div>
+        <div class="quote-box-card">
+          <img src="includes/doublequote.svg" class="smallquotes">
+          <h1> <img src="includes/hubspot_logo.svg" class="test-logo"> </h1>
+          <div class="quotes">
+            <pre>To quickly start my startup
+landing page design, I was
+looking for a landing page UI
+Kit. Landify is one of the best
+landing page UI kit I have
+come across. It’s so flexible,
+well organised and
+easily editable.</pre>
+            <div class="foot">
+              <h4 class = "person">Floyd Miles</h4>
+            </div>
+            <p class = "designation">Vice President, GoPro</p>
+          </div>
+        </div>
+      </div>
+      <div class="test-grid-item2">
+        <div class="quote-box-card2">
+          <img src="includes/doublequote.svg" class="smallquotes">
+          <h1> <img src="includes/airbnb.svg" class="test-logo"> </h1>
+          <div class="quotes">
+            <pre>I used landify and created a landing
+page for my startup within a week. The
+Landify UI Kit is simple and highly
+intuitive, so anyone can use it.</pre>
+            <div class="foot">
+              <h4 class="person">John Cooper</h4>
+            </div>
+            <p class = "designation">CEO, Airbnb</p>
+          </div>
+        </div>
+        <div class="quote-box-card3">
+          <img src="includes/doublequote.svg" class="smallquotes">
+          <h1> <img src="includes/BookMyShow_Logo.svg" class="test-logo"> </h1>
+          <div class="quotes">
+            <pre>Landify saved our time in
+designing my company page.</pre>
+            <div class="foot">
+              <h4 class = "person">Kristin Watson</h4>
+            </div>
+            <p class = "designation">Co-Founder, BookMyShow</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+  <section>
+    <div class="low-body">
+      <div class="gridContainer2">
+        <div class="grid2-item1">
+          <h2 class="grid-head">Our 18 years of</h2>
+          <h2 class="grid-head">achievements</h2>
+          <pre class="placeholder">
+With our super powers we have reached this
+          </pre>
+        </div>
+        <div class="gridContainer-nested2">
+          <div class="grid-item-nested">
+            <div class="grid2">
+              <img class="grid2-img" src="includes/01.svg">
+              <div class="grid2-item">
+                <h4 class="grid2-text2">10,000+</h4>
+                <pre class="grid2-subtext">
+Downloads per day</pre>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item-nested">
+            <div class="grid2">
+              <img class="grid2-img" src="includes/04.svg">
+              <div class="grid2-item">
+                <h4 class="grid2-text2">2 Million</h4>
+                <pre class="grid2-subtext">
+Users</pre>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item-nested">
+            <div class="grid2">
+              <img class="grid2-img" src="includes/05.svg">
+              <div class="grid2-item">
+                <h4 class="grid2-text2">500+</h4>
+                <pre class="grid2-subtext">
+Clients</pre>
+              </div>
+            </div>
+          </div>
+          <div class="grid-item-nested">
+            <div class="grid2">
+              <img class="grid2-img" src="includes/07.svg">
+              <div class="grid2-item">
+                <h4 class="grid2-text2">140</h4>
+                <pre class="grid2-subtext">
+Countries</pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <section>
+    <div class="low-body2">
+      <div class="gridContainer3">
+        <div class="grid-item3">
+          <img src="includes/Phone_Mockup.svg" class="grid3-img">
+        </div>
+        <div class="grid-item3">
+          <h2 class="grid-head3">Headline</h2>
+          <pre class="placeholder">
+Lorem ipsum dolor sit amet, consectetur adipiscing
+elit. Condimentum diam orci pretium a pharetra,
+feugiat cursus. Dictumst risus, sem egestas odio
+cras adipiscing vulputate. Nisi, risus in suscipit non.
+Non commodo volutpat, pharetra, vel.</pre>
+          <div class="getstart">
+            <h4><a href="#" class="getstarted">Get started <img src="includes/right-arrow.svg" style="vertical-align: middle"></a>
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+  <section>
+    <footer class="footer-whole">
+
+      <div class="footer-left">
+
+        <img src="includes/logofoot.svg">
+
+        <p class="footer-links">
+          <a href="#">Download Now</a>
+          &nbsp;
+          <a href="#">License</a>
+          &nbsp;
+          <br>
+          <br>
+          <a href="#">About</a>
+          &nbsp;
+          <a href="#">Features</a>
+          &nbsp;
+          <a href="#">Pricing</a>
+          &nbsp;
+          <a href="#">Careers</a>
+          &nbsp;
+          <a href="#">Help</a>
+          &nbsp;
+          <a href="#">Privacy Policy</a>
+        </p>
+
+      </div>
+
+      <div class="footer-center">
+      </div>
+
+      <div class="footer-right">
+        <span>
+          <h3 class="footer-right-item">Get the App</h3>
+          <a href="#"><img src="includes/gplay.png" class="footer-right-item2"></a>
+          <a href="#"><img src="includes/appstore.png" class="footer-right-item2"></a>
+
+        </span>
+      </div>
+
+      <div class="container">
+        <div class="row">
+            <p class="copyright-text">&copy; 2020 Taskado. All rights reserved
+            </p>
+          </div>
+    </footer>
+  </section>
+
+</body>
+<script src="script.js"></script>
+
+</html>
